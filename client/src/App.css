@@ -1,0 +1,11 @@
+.animated-border {
+    position: relative;
+    z-index: 1;
+    border-bottom:2.1px solid rgba(255, 255, 255, 0.25);
+    height: auto;
+    transition: 0.2s ease-in-out border-bottom;
+}
+
+.animated-border:focus {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+}
